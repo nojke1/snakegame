@@ -18,8 +18,14 @@ To use Git and upload your work to GitHub, follow these steps:
 ## How to Play
 
 1.  Make sure you have Python installed on your system.
-2.  Install the Pygame library: `pip install pygame`
-3.  Run the game: `python snake_game.py`
+2.  Install the Pygame library: 
+```bash
+`pip install pygame`
+```
+3.  Run the game: 
+```bash
+`python snake_game.py`
+```
 4.  Use the arrow keys to control the snake's movement.
 
 ## Features

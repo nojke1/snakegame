@@ -8,12 +8,27 @@ This is a classic snake game implemented in Python using the Pygame library. The
 
 To use Git and upload your work to GitHub, follow these steps:
 
-1.  Initialize a Git repository: `git init`
-2.  Add the files to the repository: `git add .`
-3.  Commit the changes: `git commit -m "Initial commit"`
+1.  Initialize a Git repository:
+```bash
+git init
+```
+2.  Add the files to the repository:
+```bash
+git add .
+```
+3.  Commit the changes:
+```bash
+git commit -m "Initial commit"
+```
 4.  Create a repository on GitHub.
-5.  Link the local repository to the remote repository: `git remote add origin <repository_url>`
-6.  Push the changes to GitHub: `git push -u origin main`
+5.  Link the local repository to the remote repository:
+```bash
+git remote add origin <repository_url>
+```
+6.  Push the changes to GitHub:
+```bash
+git push -u origin main
+```
 
 ## How to Play
 

@@ -1,0 +1,34 @@
+# Ataskaita
+
+## Įvadas
+
+Tai yra ataskaita apie Snake Game programą. Snake Game yra klasikinis arkadinis žaidimas, kuriame žaidėjas valdo gyvatę ir bando valgyti maistą, kad taptų ilgesnis. Žaidimas baigiasi, kai gyvatė susiduria su sienomis arba savimi.
+
+Norėdami paleisti programą, turite būti įdiegę Python ir Pygame. Tada galite paleisti failą `snake_game.py`.
+
+Norėdami naudoti programą, naudokite rodyklių klavišus, kad valdytumėte gyvatės judėjimą.
+
+## Analizė
+
+Programa apima šiuos funkcinius reikalavimus:
+
+*   Gyvatė gali judėti keturiomis kryptimis (aukštyn, žemyn, kairėn, dešinėn).
+*   Gyvatė gali valgyti maistą ir tapti ilgesnė.
+*   Žaidimas baigiasi, kai gyvatė susiduria su sienomis arba savimi.
+*   Žaidimas seka rezultatą.
+*   Žaidimas išsaugo aukštą rezultatą į failą.
+
+## Rezultatai ir apibendrinimas
+
+Programos rezultatai yra tai, kad tai yra įdomus ir patrauklus žaidimas, kurį gali žaisti bet kokio amžiaus žmonės.
+
+Būtų galima išplėsti programą pridedant naujų funkcijų, tokių kaip:
+
+*   Skirtingi maisto tipai su skirtingais balais.
+*   Power-ups, kurie suteikia gyvatei specialių sugebėjimų.
+*   Skirtingi lygiai su skirtingais išdėstymais ir su papildomomis kliūtimis.
+
+## Šaltiniai
+
+*   Python: https://www.python.org/
+*   Pygame: https://www.pygame.org/

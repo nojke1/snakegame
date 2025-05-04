@@ -8,7 +8,7 @@ This is a classic snake game implemented in Python using the Pygame library. The
 
 To use Git and upload your work to GitHub, follow these steps:
 
-1.  Initialize a Git repository:
+1.  Initialize a Git repository (if you haven't already):
 ```bash
 git init
 ```
@@ -18,16 +18,34 @@ git add .
 ```
 3.  Commit the changes:
 ```bash
-git commit -m "Initial commit"
+git commit -m "Your commit message"
 ```
-4.  Create a repository on GitHub.
-5.  Link the local repository to the remote repository:
+4.  Create a repository on GitHub (if you haven't already).
+5.  Link the local repository to the remote repository (if you haven't already):
 ```bash
 git remote add origin <repository_url>
 ```
 6.  Push the changes to GitHub:
 ```bash
-git push -u origin main
+git push -u origin master
+```
+   *  If you are using a different branch name (e.g., main), replace `master` with your branch name.
+   *  The `-u` flag sets up tracking between your local branch and the remote branch, so you only need to use `git push` in the future.
+
+To push updates to GitHub after making changes:
+
+1.  Add the changed files to the repository:
+```bash
+git add .
+```
+2.  Commit the changes:
+```bash
+git commit -m "Your commit message"
+```
+   * Replace "Your commit message" with a descriptive message about the changes you made.
+3.  Push the changes to GitHub:
+```bash
+git push
 ```
 
 ## How to Play
@@ -49,10 +67,6 @@ python snake_game.py
 *   Score tracking
 *   Collision detection
 *   Simple and intuitive controls
-
-## Contributing
-
-Feel free to contribute to the project by submitting pull requests.
 
 ## OOP Pillars
 
